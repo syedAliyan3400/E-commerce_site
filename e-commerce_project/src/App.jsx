@@ -7,7 +7,7 @@ import Footer from "./footer.jsx";
 
 function App() {
    return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/E-commerce_site">
     <Navbar />
     <Routes>
       <Route path="/" element={<Homepage />} />
